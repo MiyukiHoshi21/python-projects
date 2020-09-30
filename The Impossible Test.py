@@ -1,4 +1,4 @@
-print("Title of program: General Knowlegde (For adults)")
+print("Title of program: The Impossible Test")
 print()
 
 counter = 0
