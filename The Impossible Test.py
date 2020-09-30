@@ -5,7 +5,7 @@ print()
 
 counter = 0
 score = 0
-total_num_of_qn = 7
+total_num_of_qn = 10
 
 
 counter +=1
@@ -268,6 +268,121 @@ while tracker !=1:
   print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
   print()
   print()
+  
+
+
+
+counter +=1
+tracker = 0
+
+while tracker !=1:
+  
+  print("Q"+str(counter)+") "+ "Where would you find the River Thames?")
+  print("   a) London, UK")
+  print("   b) New Orleans, USA")
+  print("   c) Shanghai, China")
+  print("   d) Paris, France")
+  answer = input("Your answer: ")
+  answer = answer.lower()
+  if answer == "a":
+    output = "Yes, that's right!"
+    tracker =1
+    score +=1
+  elif answer == "b":
+    output = "Wrong. River Mississippi is located here."
+    score -=1
+  elif answer == "c":
+    output = "Wrong. River Yangtze is located here."
+    score -=1
+  elif answer == "d":
+    output = "Wrong. River Seine is located here."
+    tracker =1
+    score -=1
+  else:
+    output = "Please choose a, b, c or d only."
+
+  print()
+  print(output.lower())
+  print()
+  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print()
+  print()
+
+  
+  
+counter +=1
+tracker = 0
+
+while tracker !=1:
+  
+  print("Q"+str(counter)+") "+ "What is the hottest continent on Earth?")
+  print("   a) North America")
+  print("   b) South America")
+  print("   c) Africa")
+  print("   d) Asia")
+  answer = input("Your answer: ")
+  answer = answer.lower()
+  if answer == "a":
+    output = "Wrong. There is an even hotter continent."
+    score -=1
+  elif answer == "b":
+    output = "Wrong. There is an even hotter continent."
+    score -=1
+  elif answer == "c":
+    output = "Yes, that's right!"
+    tracker =1
+    score +=1
+  elif answer == "d":
+    output = "Wrong. There is an even hotter continent."
+    score -=1
+  else:
+    output = "Please choose a, b, c or d only."
+
+  print()
+  print(output)
+  print()
+  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print()
+  print()
+  
+  
+
+
+counter +=1
+tracker = 0
+
+while tracker !=1:
+  
+  print("Q"+str(counter)+") "+ "What is the longest river in the world?")
+  print("   a) The Snake River")
+  print("   b) The Amazon River")
+  print("   c) The River Nile")
+  print("   d) The Yellow River")
+  answer = input("Your answer: ")
+  answer = answer.lower()
+  if answer == "a":
+    output = "Wrong. That is the 76th longest river in the world."
+    score -=1
+  elif answer == "b":
+    output = "Wrong. That is the 2nd longest river in the world."
+    score -=1
+  elif answer == "c":
+    output = "Yes, that's right!"
+    tracker =1
+    score +=1
+  elif answer == "d":
+    output = "Wrong. That is the 6th longest river in the world."
+    score -=1
+  else:
+    output = "Please choose a, b, c or d only."
+
+  print()
+  print(output)
+  print()
+  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print()
+  print()
+  
   
 
 
