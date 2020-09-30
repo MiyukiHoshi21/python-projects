@@ -1,4 +1,4 @@
-If any of you want to take the test just click this: https://create.withcode.uk/python/Bat because the code is super long. 
+If any of you want to take the test just use this: (https://create.withcode.uk/python/Bat) because the code is super long. ^_^
 
 print("Title of program: The Impossible Test")
 print()
